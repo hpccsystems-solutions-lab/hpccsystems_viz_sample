@@ -13,3 +13,9 @@
     border: 1px solid #eee;
     height: 800px;
   }
+
+  .label {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }

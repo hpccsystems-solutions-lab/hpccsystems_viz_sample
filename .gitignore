@@ -2,3 +2,4 @@ ecl/eclcc.log
 ecl/.vscode/settings.json
 src/.DS_Store
 node_modules
+.env
