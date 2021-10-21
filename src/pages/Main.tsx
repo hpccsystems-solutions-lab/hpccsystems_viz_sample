@@ -54,18 +54,18 @@ export function Main() {
     <Layout style={{paddingTop: 10, paddingLeft:30, paddingRight:30}}>
         <Row style={{ paddingBottom: 10, paddingTop: 5}}>
           <Col  span={24} >
-            <div className={"label"}>Daily Vaccinations</div>
-            <Chart chart={Column} config={vaccineChart} data={vaccineData} />
+            {/* <div className={"label"}>Daily Vaccinations</div>
+            <Chart chart={Column} config={vaccineChart} data={vaccineData} /> */}
           </Col>
         </Row>
 
         <Row style={{ paddingBottom: 10, paddingTop: 5}}>
           <Col span={24}>
              {/* Data Table */}
-             <div className={"label"}>Vaccinations Data</div>
+             {/* <div className={"label"}>Vaccinations Data</div>
              <div style={{overflow: "auto", height: 400}}>
              <Table columns={computeTableColumns(vaccineData)}  rowKey={"date"} dataSource={vaccineData}/>
-             </div>
+             </div> */}
           </Col>
         </Row>
     </Layout>

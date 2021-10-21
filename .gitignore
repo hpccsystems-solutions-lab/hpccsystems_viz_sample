@@ -3,3 +3,4 @@ ecl/.vscode/settings.json
 src/.DS_Store
 node_modules
 .env
+.DS_Store
